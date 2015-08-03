@@ -143,8 +143,12 @@
 				error    : '<p class="fancybox-error">The requested content cannot be loaded.<br/>Please try again later.</p>',
 				closeBtn : '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;"></a>',
 				next     : '<a title="Next" class="fancybox-nav fancybox-next" href="javascript:;"><span></span></a>',
+<<<<<<< HEAD
 				prev     : '<a title="Previous" class="fancybox-nav fancybox-prev" href="javascript:;"><span></span></a>',
 				loading  : '<div id="fancybox-loading"><div></div></div>'
+=======
+				prev     : '<a title="Previous" class="fancybox-nav fancybox-prev" href="javascript:;"><span></span></a>'
+>>>>>>> 3dbbd30b826dd7b7372d5c8329673afd7903e23b
 			},
 
 			// Properties for each animation type
@@ -262,7 +266,11 @@
 					if (isQuery(element)) {
 						obj = {
 							href    : element.data('fancybox-href') || element.attr('href'),
+<<<<<<< HEAD
 							title   : $('<div/>').text( element.data('fancybox-title') || element.attr('title') || '' ).html(),
+=======
+							title   : $('<div/>').text( element.data('fancybox-title') || element.attr('title') ).html(),
+>>>>>>> 3dbbd30b826dd7b7372d5c8329673afd7903e23b
 							isDom   : true,
 							element : element
 						};
@@ -615,7 +623,11 @@
 
 			F.hideLoading();
 
+<<<<<<< HEAD
 			el = $(F.opts.tpl.loading).click(F.cancel).appendTo('body');
+=======
+			el = $('<div id="fancybox-loading"><div></div></div>').click(F.cancel).appendTo('body');
+>>>>>>> 3dbbd30b826dd7b7372d5c8329673afd7903e23b
 
 			// If user will press the escape-button, the request will be canceled
 			D.bind('keydown.loading', function(e) {
@@ -1719,7 +1731,11 @@
 
 			parent = F.coming ? F.coming.parent : opts.parent;
 
+<<<<<<< HEAD
 			this.overlay = $('<div class="fancybox-overlay"></div>').appendTo( parent && parent.length ? parent : 'body' );
+=======
+			this.overlay = $('<div class="fancybox-overlay"></div>').appendTo( parent && parent.lenth ? parent : 'body' );
+>>>>>>> 3dbbd30b826dd7b7372d5c8329673afd7903e23b
 			this.fixed   = false;
 
 			if (opts.fixed && F.defaults.fixed) {
@@ -2015,4 +2031,8 @@
 		$("<style type='text/css'>.fancybox-margin{margin-right:" + (w2 - w1) + "px;}</style>").appendTo("head");
 	});
 
+<<<<<<< HEAD
 }(window, document, jQuery));
+=======
+}(window, document, jQuery));
+>>>>>>> 3dbbd30b826dd7b7372d5c8329673afd7903e23b

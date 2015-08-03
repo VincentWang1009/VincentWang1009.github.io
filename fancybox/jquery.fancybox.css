@@ -233,7 +233,11 @@
 	color: #FFF;
 	font-weight: bold;
 	line-height: 24px;
+<<<<<<< HEAD
 	text-align: left;
+=======
+	white-space: nowrap;
+>>>>>>> 3dbbd30b826dd7b7372d5c8329673afd7903e23b
 }
 
 .fancybox-title-outside-wrap {
