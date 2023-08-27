@@ -129,13 +129,12 @@
         
             
             
-            
     </div>
     <div>
         
             <a class="about  hasFriend  site_url"
                
-               href="/about">关于</a>
+               href="/about/">关于</a>
         
         <a style="width: 50%"
                 
