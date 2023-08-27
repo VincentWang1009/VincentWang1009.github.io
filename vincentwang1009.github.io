@@ -6,17 +6,16 @@
   <meta name="keywords" content="">
   <meta name="description" content="Hello World | 水天">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="水天的个人博客">
+<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
-<meta property="og:title" content="测试">
-<meta property="og:url" content="http://example.com/2023/08/27/%E6%B5%8B%E8%AF%95/index.html">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="https://vincentwang1009.github.io/vincentwang1009.github.io">
 <meta property="og:site_name" content="水天">
-<meta property="og:description" content="水天的个人博客">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-08-27T09:29:48.000Z">
-<meta property="article:modified_time" content="2023-08-27T09:30:49.909Z">
+<meta property="article:published_time" content="2023-08-27T08:32:56.000Z">
+<meta property="article:modified_time" content="2023-08-27T08:32:27.876Z">
 <meta property="article:author" content="Vincent Wang">
-<meta property="article:tag" content="原创">
 <meta name="twitter:card" content="summary">
 
 
@@ -201,7 +200,7 @@
         
         
         <a  class="全部文章 Java "
-           href="/2023/08/27/%E6%B5%8B%E8%AF%95/"
+           href="/vincentwang1009.github.io"
            data-tag="原创"
            data-author="" >
             <span class="post-title" title="测试">测试</span>
@@ -210,7 +209,7 @@
         
         
         <a  class="全部文章 "
-           href="/2023/08/27/rust/hello-world/"
+           href="/vincentwang1009.github.io"
            data-tag=""
            data-author="" >
             <span class="post-title" title="Hello World">Hello World</span>
